@@ -1,0 +1,49 @@
+
+- Setup git repository:
+$ git init foldername
+
+
+- Show status
+$ cd foldername
+$ git status
+
+
+- Add all files to be tracked
+$ git add .
+
+
+- Add specific folder to be tracked
+$ git add filename
+
+
+- Remove files from cache
+$ git rm --chached filename
+
+
+- Commit
+$ git commit -m "Here the message"
+
+
+- show commit (log) history
+$ git log
+
+
+- exit screen if commit (log) histoy is too long
+Press: [shift]+zz
+
+
+- show commit (log) history in one line:
+$ git log --oneline
+
+
+- commit directly without adding files to staging area before
+$ git commit -a -m "Here the message"
+
+- show branches
+$ git branch
+
+- change branch
+$ git checkout enterBranchName
+
+- create a new branch and change to it
+$ git checkout -b enterBranchName

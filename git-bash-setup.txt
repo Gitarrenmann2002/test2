@@ -1,0 +1,13 @@
+After installing:
+
+1. Setup the default directory:
+
+- right click on start icon and go to properties
+- change "Ausführen in" to the desired directory path, e.g.: "D:\Webseitenerstellung\Xampp 1.7.7\htdocs"
+- remove "--cd-to-home" at the end of the "Ziel" field
+
+2. Set user.name and user.email:
+
+$ git config --global user.name "Gitarrenmann2002"
+
+$ git config --global user.email "m.theek@gmx.de"

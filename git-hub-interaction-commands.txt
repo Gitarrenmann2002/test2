@@ -1,0 +1,5 @@
+- clone GitHub repository
+$ git clone enterTheGitRepositoryUrl
+
+- push branch to GitHub
+$ git push enterTHeGitHubRepoUrl
